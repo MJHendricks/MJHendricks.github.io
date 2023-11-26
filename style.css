@@ -1,0 +1,31 @@
+/* Body (Applies to entire page within the body div) */
+body {
+    /* remove the white borders around the page */
+    margin: 0;
+    padding: 0;
+}
+
+/* Nav bar ontop of page, containing links and one image */
+nav {
+    width: 100%;
+    position: fixed;
+    margin: auto;
+    background-color: purple;
+    
+}
+
+#logo {
+    min-height: 10px;
+    display: inline;
+    float: left;
+    position: relative;
+    padding-left: 10%;
+    /* padding-right: 40%; */
+    width:40%;
+}
+
+.navLinks li{
+    display: inline;
+    padding-left: 4%;
+}
+
